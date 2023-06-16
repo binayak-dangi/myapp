@@ -1,14 +1,13 @@
-
+import React from 'react';
 import './App.css';
-import First from './First';
+import MyRoutes from './MyRoutes';
+
 
 const App=()=> {
   return (
-    <div className="App">
-      <h2>Binayak Dangi</h2>
-      <hr />
-      <First/>
-    </div>
+    <>
+    <MyRoutes/>
+    </>
   );
 }
 
